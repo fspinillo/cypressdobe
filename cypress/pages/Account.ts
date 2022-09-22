@@ -14,7 +14,7 @@ class Account {
   public generateEmail() {
     const currentDate = moment().format('YYYYMMDD')
     const currentTime = moment().format('hhmmss')
-    const newEmail = `frameio-testing+${currentDate}-${currentTime}@example.com`
+    const newEmail = `testing+${currentDate}-${currentTime}@example.com`
     process.env.email = newEmail
     return newEmail
   }
